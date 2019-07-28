@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "6ef20613-a22a-4ab5-851c-84e3896be9d1",
+		"name": "XSS_Scanner",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Target endpoint",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "dcccb540-dbad-4de1-91f2-7d22e2f02d13",
+						"exec": [
+							"pm.test(\"Status code is not 500\", function () {",
+							"    pm.response.to.have.not.status(500);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://yourhost{{vector}}",
+					"protocol": "https",
+					"host": [
+						"yourhost{{vector}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
