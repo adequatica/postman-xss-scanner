@@ -1,8 +1,8 @@
-# Use Postman Collection Runner as vulnerability scanner
+## Use Postman Collection Runner as vulnerability scanner
 
 Postman Collection sample and CSV data file of XSS vectors without commas and double quotes for article «[Use Postman Collection Runner as vulnerability scanner](https://medium.com/@adequatica/use-postman-collection-runner-as-vulnerability-scanner-aff7471c94fb)».
 
-## How to use
+### How to use
 
 1. Import collection to Postman;
 2. Put your host in request URL field;
