@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "6ef20613-a22a-4ab5-851c-84e3896be9d1",
+		"_postman_id": "205e3463-cb73-4df8-a2a6-43af6834946a",
 		"name": "XSS_Scanner",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -25,10 +25,23 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://yourhost{{vector}}",
+					"raw": "https://www.googleapis.com/books/v1/volumes?q={{vector}}",
 					"protocol": "https",
 					"host": [
-						"yourhost{{vector}}"
+						"www",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"books",
+						"v1",
+						"volumes"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "{{vector}}"
+						}
 					]
 				}
 			},
