@@ -16,4 +16,5 @@ Postman Collection sample and CSV data file of XSS vectors without commas and do
 * [Looping through a data file in the Postman Collection Runner](https://blog.getpostman.com/2018/04/11/looping-through-a-data-file-in-the-postman-collection-runner/);
 * [Working with data files](https://learning.getpostman.com/docs/postman/collection_runs/working_with_data_files/);
 * [Test scripts](https://learning.getpostman.com/docs/postman/scripts/test_scripts/);
-* [666 lines of XSS vectors, suitable for attacking an API](https://gist.github.com/JohannesHoppe/5612274).
+* [666 lines of XSS vectors, suitable for attacking an API](https://gist.github.com/JohannesHoppe/5612274);
+* [Regular expression Denial of Service — ReDoS](https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS).
